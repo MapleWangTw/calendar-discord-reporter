@@ -39,4 +39,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git add docs/calendar.txt
           git commit -m "Update calendar $(date +%F)" || echo "No changes"
+          git pull --rebase origin main
           git push
