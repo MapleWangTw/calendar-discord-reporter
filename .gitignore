@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+gcp-key.json
+*.log
+.DS_Store
