@@ -1,7 +1,7 @@
 name: Update calendar
 on:
   schedule:
-    - cron: '0 0 * * *'   # UTC 00:00 = 台北 08:00
+    - cron: '*/15 * * * *' # 每 15 分鐘執行一次
   workflow_dispatch:       # 可在 Actions 頁手動觸發測試
 
 permissions:
