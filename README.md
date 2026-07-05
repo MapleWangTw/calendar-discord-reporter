@@ -21,7 +21,7 @@ calendar-discord-reporter/
 
 每天台北時間 08:00（UTC 00:00）自動執行：
 
-1. 從 Google Calendar 抓取未來 10 天的行事曆事件
+1. 從 Google Calendar 抓取未來 16 天的行事曆事件（包含今天與未來 15 天）
 2. 產出純文字報告寫入 `docs/calendar.txt`
 3. 自動 commit 並 push 回 repo
 

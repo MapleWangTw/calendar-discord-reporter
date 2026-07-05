@@ -22,7 +22,7 @@ CALENDAR_ID = os.environ.get(
     "bd32d4293373d21333696ed89ca1f360c1a252582a0ad27b7d2d01008ee0fd04@group.calendar.google.com",
 )
 TIMEZONE = os.environ.get("TIMEZONE", "Asia/Taipei")
-LOOKAHEAD_DAYS = int(os.environ.get("LOOKAHEAD_DAYS", "9"))
+LOOKAHEAD_DAYS = int(os.environ.get("LOOKAHEAD_DAYS", "15"))
 CREDENTIAL_FILE = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "gcp-key.json")
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "docs/calendar.txt")
 

@@ -88,7 +88,7 @@ def main():
     calendar_id = config.get("CALENDAR_ID", "primary")
     service_account_file = config.get("GOOGLE_SERVICE_ACCOUNT_FILE", "service_account_key.json")
     service_account_file = os.path.expanduser(service_account_file)
-    lookahead_days = int(config.get("LOOKAHEAD_DAYS", 9))
+    lookahead_days = int(config.get("LOOKAHEAD_DAYS", 15))
 
     # 2. Setup logger
     log_level = getattr(logging, log_level_str.upper(), logging.INFO)
